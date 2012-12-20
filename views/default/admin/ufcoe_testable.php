@@ -28,3 +28,9 @@ $xml_path = escapeshellarg($xml_path);
 <h3 style="margin: 1em 0">Execute PHPUnit Tests</h3>
 
 <p><code>phpunit --colors -vc <?php echo htmlspecialchars($xml_path, ENT_QUOTES, 'UTF-8') ?></code></p>
+
+<h3 style="margin: 1em 0">More info</h3>
+
+<ul>
+	<li><a href="https://github.com/ufcoe/Elgg-ufcoe_testable#adding-unit-tests">How to add tests</a></li>
+</ul>
