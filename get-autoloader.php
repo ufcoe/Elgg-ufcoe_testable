@@ -9,6 +9,7 @@ if (!function_exists('ufcoe_testable_get_autoloader')) {
 			}
 			$inst = new UFCOE_Testable_Loader();
 			$inst->addFallback(dirname(__FILE__) . '/classes');
+			$inst->addFallback(dirname(dirname(dirname(__FILE__))) . '/engine/classes');
 			$inst->register();
 		}
 		return $inst;
