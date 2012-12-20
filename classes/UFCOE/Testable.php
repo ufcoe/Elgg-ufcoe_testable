@@ -63,8 +63,6 @@ class UFCOE_Testable {
 
 		$runner->runSuite($suite_name, $test_files);
 
-		echo "<a href=''>Hey</a>";
-
 		exit;
 	}
 }
