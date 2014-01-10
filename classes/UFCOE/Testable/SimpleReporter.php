@@ -5,7 +5,7 @@ class UFCOE_Testable_SimpleReporter extends HtmlReporter {
 	protected $_footerHtml;
 
 	public function __construct($footer = '') {
-		$this->HtmlReporter('UTF-8');
+		parent::__construct('UTF-8');
 		$this->_footerHtml = $footer;
 	}
 
